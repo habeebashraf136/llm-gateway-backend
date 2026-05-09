@@ -226,6 +226,7 @@ curl -X POST http://localhost:3000/api/chat/message \
   -d '{
     "messages": [{"role": "user", "content": "Explain quantum computing."}],
     "model": "mistral"
+    }]
   }'
 ```
 
@@ -244,6 +245,7 @@ curl -N -X POST http://localhost:3000/api/chat/message/stream \
   -d '{
     "messages": [{"role": "user", "content": "Write a short story about space."}],
     "model": "mistral"
+    }] 
   }'
 ```
 
