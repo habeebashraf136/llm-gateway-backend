@@ -120,7 +120,7 @@ backend/
 1. **Clone the repository:**
 
    ```bash
-   git clone <repo-url>
+   git clone <https://github.com/habeebashraf136/llm-gateway-backend.git>
    cd backend
    ```
 
@@ -140,7 +140,7 @@ backend/
    npm run dev
    ```
 
-   The app will be available on `http://localhost:5000` (or your configured `PORT`).
+   The app will be available on `http://localhost:3000` (or your configured `PORT`).
 
 ---
 
