@@ -222,7 +222,7 @@ Use this endpoint when you want to wait for the AI to finish thinking and receiv
 ```bash
 curl -X POST http://localhost:3000/api/chat/message \
   -H "Content-Type: application/json" \
-  -H "x-api-key: your_api_key_here" \
+  -H "api-key: your_api_key_here" \
   -d '{
     "messages": [{"role": "user", "content": "Explain quantum computing."}],
     "model": "mistral"
@@ -240,7 +240,7 @@ Use this endpoint to receive the response via Server-Sent Events (SSE). This is 
 ```bash
 curl -N -X POST http://localhost:3000/api/chat/message/stream \
   -H "Content-Type: application/json" \
-  -H "x-api-key: your_api_key_here" \
+  -H "api-key: your_api_key_here" \
   -d '{
     "messages": [{"role": "user", "content": "Write a short story about space."}],
     "model": "mistral"
