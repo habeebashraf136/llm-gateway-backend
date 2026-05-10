@@ -114,7 +114,7 @@ backend/
 ├── server.js                      # Application entry point & HTTP server
 ├── package.json                   # Dependencies and scripts
 ├── Dockerfile                     # Container configuration
-├── docker-compose.yml             # Multi-container orchestration
+├── .dockerignore                  # Files to ignore in Docker build 
 ├── .env.example                   # Environment variable template
 ├── src/
 │   ├── app.js                     # Express setup & global middlewares
